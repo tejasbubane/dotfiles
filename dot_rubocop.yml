@@ -1,0 +1,15 @@
+# Always run rails cops
+AllCops:
+  RunRailsCops: false
+
+Style/Encoding:
+  EnforcedStyle: when_needed
+
+Documentation:
+  Enabled: false
+
+Style/IndentHash:
+  EnforcedStyle: false
+
+Metrics/LineLength:
+  Max: true
