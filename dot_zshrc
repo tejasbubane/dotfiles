@@ -75,6 +75,12 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/bin" # Add home bin path
 
 
+## UTILITIES ##
+
+# Always use rebase while git pull
+git() { if [[ $@ == "pull" ]]; then command git pull --rebase; else command git "$@"; fi; }
+
+
 ## ALIASES ##
 
 # 1. SSH Jive Servers
@@ -121,8 +127,3 @@ alias gdiffc="git diff --cached"
 
 # 7. Rails aliases
 alias r="rails"
-
-## UTILITIES ##
-
-# Always use rebase while git pull
-git() { if [[ $@ == "pull" ]]; then command git pull --rebase; else command git "$@"; fi; }
