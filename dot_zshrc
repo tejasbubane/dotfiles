@@ -90,6 +90,8 @@ alias atd9='ssh jive@atd9.spinr.in'
 alias atd10='ssh jive@atd10.spinr.in'
 alias atd11='ssh jive@atd11.spinr.in'
 
+alias reporting='ssh jive@atd11.spinr.in'
+
 # 2. SAFE and REPO Servers
 alias safe='ssh jive@safe.spinr.in'
 alias repo='ssh jive@repo.spinr.in'
