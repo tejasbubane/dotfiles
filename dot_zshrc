@@ -84,17 +84,9 @@ git() { if [[ $@ == "pull" ]]; then command git pull --rebase; else command git 
 ## ALIASES ##
 
 # 1. SSH Jive Servers
-alias atd1='ssh jive@atd1.spinr.in'
-alias atd2='ssh jive@atd2.spinr.in'
-alias atd3='ssh jive@atd3.spinr.in'
-alias atd4='ssh jive@atd4.spinr.in'
-alias atd5='ssh jive@atd5.spinr.in'
-alias atd6='ssh jive@atd6.spinr.in'
-alias atd7='ssh jive@atd7.spinr.in'
-alias atd8='ssh jive@atd8.spinr.in'
-alias atd9='ssh jive@atd9.spinr.in'
-alias atd10='ssh jive@atd10.spinr.in'
-alias atd11='ssh jive@atd11.spinr.in'
+for (( i=1; i<=11; i++ )); do
+    alias atd$i="ssh jive@atd$i.spinr.in"
+done
 
 alias reporting='ssh jive@atd11.spinr.in'
 
