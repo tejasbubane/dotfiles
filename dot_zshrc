@@ -116,7 +116,9 @@ alias be="b exec"
 alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 # 6. Git aliases
-alias gdiff="git diff --word-diff"
+alias gdiffw="git diff --word-diff"
+alias gdiffc="git diff --cached"
+
 
 ## UTILITIES ##
 
