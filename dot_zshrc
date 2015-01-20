@@ -119,6 +119,8 @@ alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 alias gdiffw="git diff --word-diff"
 alias gdiffc="git diff --cached"
 
+# 7. Rails aliases
+alias r="rails"
 
 ## UTILITIES ##
 
