@@ -13,3 +13,6 @@ Style/IndentHash:
 
 Metrics/LineLength:
   Max: true
+
+StringLiterals:
+  Enabled: false
