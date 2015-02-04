@@ -1,0 +1,2 @@
+# Always use rebase while git pull
+git() { if [[ $@ == "pull" ]]; then command git pull --rebase; else command git "$@"; fi; }

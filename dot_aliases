@@ -1,0 +1,40 @@
+# SSH Jive Servers
+for (( i=1; i<=11; i++ )); do
+    alias atd$i="ssh jive@atd$i.spinr.in"
+done
+alias reporting='ssh jive@atd11.spinr.in'
+alias payment='ssh ubuntu@payments.spinr.in'
+alias payments='ssh ubuntu@payments.spinr.in'
+alias cs='ssh ubuntu@customerservice.spinr.in'
+alias marketing='ssh ubuntu@marketing.spinr.in'
+
+# SAFE and REPO Servers
+alias safe='ssh jive@safe.spinr.in'
+alias repo='ssh jive@repo.spinr.in'
+
+# No need of password for mysql each time
+alias mysqla='mysql -uroot -proot'
+alias mysqldumpa='mysqldump -uroot -proot'
+
+# bundle install in vendor
+# taken from : http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/
+alias b="bundle"
+alias bi="b install --path vendor"
+alias bil="bi --local"
+alias bu="b update"
+alias be="b exec"
+alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
+
+# Git
+alias gdiffw="git diff --word-diff"
+alias gdiffc="git diff --cached"
+
+# Rails
+alias r="rails"
+
+# zsh
+alias zshconfig="emacsclient ~/.zshrc"
+alias ohmyzsh="emacsclient ~/.oh-my-zsh"
+
+# rspec
+alias rspec='nocorrect rspec'
