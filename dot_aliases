@@ -34,3 +34,6 @@ alias ohmyzsh="emacsclient ~/.oh-my-zsh"
 
 # rspec
 alias rspec='nocorrect rspec'
+
+# emacs
+alias ec="emacsclient"
