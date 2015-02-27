@@ -38,3 +38,6 @@ alias rspec='nocorrect rspec'
 
 # emacs
 alias ec="emacsclient"
+
+# ping check
+alias google="ping www.google.co.in"
