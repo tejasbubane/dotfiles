@@ -11,7 +11,8 @@ export PATH="$HOME/intellij_studio/bin:$PATH"
 export PATH="/home/tech-6/.cask/bin:$PATH"
 
 export GOROOT="$HOME/go"
-export PATH="$PATH:$GOROOT/bin"
+export GOPATH="$HOME/gocode"
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/bin" # Add home bin path
