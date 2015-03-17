@@ -8,9 +8,12 @@ alias payments='ssh ubuntu@payments.spinr.in'
 alias cs='ssh ubuntu@customerservice.spinr.in'
 alias marketing='ssh ubuntu@marketing.spinr.in'
 
+alias new_dam='ssh ubuntu@54.251.253.186'
+alias new_solr='ssh ubuntu@54.179.47.204'
+
 # IRIS
-alias safe='ssh jive@safe.spinr.in'
-alias repo='ssh jive@repo.spinr.in'
+alias safe='ssh ubuntu@safe.spinr.in'
+alias repo='ssh ubuntu@repo.spinr.in'
 alias iris='ssh jive@iris.spinr.in'
 
 # No need of password for mysql each time
