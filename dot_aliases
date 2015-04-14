@@ -9,7 +9,7 @@ alias cs='ssh ubuntu@customerservice.spinr.in'
 alias marketing='ssh ubuntu@marketing.spinr.in'
 
 alias new_dam='ssh ubuntu@54.251.253.186'
-alias new_solr='ssh ubuntu@54.179.47.204'
+alias new_solr='ssh ubuntu@54.151.236.20'
 alias new_test='ssh ubuntu@54.179.60.195'
 
 # IRIS
