@@ -61,3 +61,6 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.paths
 source $HOME/.utilities
+
+export ALTERNATE_EDITOR=""
+export EDITOR=emacsclient
