@@ -18,6 +18,10 @@ alias repo='ssh ubuntu@repo.spinr.in'
 alias iris='ssh jive@iris.spinr.in'
 alias new_iris='ssh ubuntu@46.137.213.175'
 
+# Git
+alias gf='git fetch'
+
+# Mysql
 # No need of password for mysql each time
 alias mysqla='mysql -uroot -proot'
 alias mysqldumpa='mysqldump -uroot -proot'
