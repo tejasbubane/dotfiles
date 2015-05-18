@@ -3,11 +3,13 @@ for (( i=1; i<=11; i++ )); do
     alias atd$i="ssh jive@atd$i.spinr.in"
 done
 alias reporting='ssh jive@atd11.spinr.in'
+alias api='ssh ubuntu@api.spinr.in'
 alias payment='ssh ubuntu@payments.spinr.in'
 alias payments='ssh ubuntu@payments.spinr.in'
 alias cs='ssh ubuntu@customerservice.spinr.in'
 alias marketing='ssh ubuntu@marketing.spinr.in'
 alias staging='ssh ubuntu@54.179.60.195'
+alias atd9='ssh ubuntu@atd9.spinr.in'
 
 alias new_dam='ssh ubuntu@54.251.253.186'
 alias new_solr='ssh ubuntu@54.151.236.20'
