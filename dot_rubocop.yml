@@ -11,8 +11,5 @@ Documentation:
 Style/IndentHash:
   EnforcedStyle: false
 
-Metrics/LineLength:
-  Max: true
-
 StringLiterals:
   Enabled: false
