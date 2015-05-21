@@ -14,15 +14,9 @@ plugins=(
   copydir
   copyfile
   debian
-  django
   emacs
-  emoji-clock
   gem
   git-extras
-  git-flow-avh
-  git-flow
-  git-hubflow
-  git-remote-branch
   git
   gitfast
   github
@@ -31,17 +25,11 @@ plugins=(
   history-substring-search
   iwhois
   last-working-dir
-  lighthouse
-  lol
   per-directory-history
-  pip
-  pj
   postgres
-  python
   rails
   rake-fast
   rake
-  rand-quote
   repo
   ruby
   rvm
@@ -49,7 +37,6 @@ plugins=(
   ssh-agent
   themes
   thor
-  torrent
   urltools
   web-search
   zeus
