@@ -41,6 +41,8 @@ plugins=(
   web-search
   zeus
   zsh_reload
+  mix
+  mix_fast
 )
 
 source $ZSH/oh-my-zsh.sh
