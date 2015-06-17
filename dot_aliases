@@ -8,7 +8,7 @@ alias payment='ssh ubuntu@payments.spinr.in'
 alias payments='ssh ubuntu@payments.spinr.in'
 alias cs='ssh ubuntu@customerservice.spinr.in'
 alias marketing='ssh ubuntu@marketing.spinr.in'
-alias staging='ssh ubuntu@54.179.60.195'
+alias staging='ssh ubuntu@54.251.45.56'
 alias atd9='ssh ubuntu@atd9.spinr.in'
 
 alias new_dam='ssh ubuntu@54.251.253.186'
