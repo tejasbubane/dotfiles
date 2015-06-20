@@ -22,6 +22,9 @@ alias new_iris='ssh ubuntu@46.137.213.175'
 
 # Git
 alias gf='git fetch'
+alias gdc='git diff --cached'
+alias gmff='git merge --ff-only'
+alias gmnff='git merge --no-ff'
 
 # Mysql
 # No need of password for mysql each time
