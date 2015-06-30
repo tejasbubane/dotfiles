@@ -9,10 +9,12 @@ alias payments='ssh ubuntu@payments.spinr.in'
 alias cs='ssh ubuntu@customerservice.spinr.in'
 alias marketing='ssh ubuntu@marketing.spinr.in'
 alias staging='ssh ubuntu@54.251.45.56'
+alias atd8='ssh ubuntu@atd8.spinr.in'
 alias atd9='ssh ubuntu@atd9.spinr.in'
 
 alias new_dam='ssh ubuntu@54.251.253.186'
-alias new_solr='ssh ubuntu@54.151.236.20'
+alias solr='ssh ubuntu@search.spinr.in'
+alias search='ssh ubuntu@search.spinr.in'
 
 # IRIS
 alias safe='ssh ubuntu@safe.spinr.in'
