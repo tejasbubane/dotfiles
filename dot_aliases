@@ -1,26 +1,3 @@
-# SSH Jive Servers
-for (( i=1; i<=11; i++ )); do
-    alias atd$i="ssh jive@atd$i.spinr.in"
-done
-alias reporting='ssh jive@atd11.spinr.in'
-alias api='ssh ubuntu@api.spinr.in'
-alias payment='ssh ubuntu@payments.spinr.in'
-alias payments='ssh ubuntu@payments.spinr.in'
-alias cs='ssh ubuntu@customerservice.spinr.in'
-alias marketing='ssh ubuntu@marketing.spinr.in'
-alias staging='ssh ubuntu@54.251.45.56'
-alias atd8='ssh ubuntu@atd8.spinr.in'
-alias atd9='ssh ubuntu@atd9.spinr.in'
-
-alias new_dam='ssh ubuntu@54.251.253.186'
-alias solr='ssh ubuntu@search.spinr.in'
-alias search='ssh ubuntu@search.spinr.in'
-
-# IRIS
-alias safe='ssh ubuntu@safe.spinr.in'
-alias repo='ssh ubuntu@repo.spinr.in'
-alias iris='ssh jive@iris.spinr.in'
-alias new_iris='ssh ubuntu@46.137.213.175'
 
 # Git
 alias gf='git fetch'
@@ -53,6 +30,7 @@ alias ohmyzsh="emacsclient ~/.oh-my-zsh"
 alias rspec='nocorrect rspec'
 
 # emacs
+alias emacs="/usr/local/bin/emacs"
 alias ec="emacsclient"
 
 # ping check
