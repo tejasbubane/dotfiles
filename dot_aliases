@@ -7,8 +7,8 @@ alias gmnff='git merge --no-ff'
 
 # Mysql
 # No need of password for mysql each time
-alias mysqla='mysql -uroot -proot'
-alias mysqldumpa='mysqldump -uroot -proot'
+alias mysqla='mysql -uroot -proot12345'
+alias mysqldumpa='mysqldump -uroot -proot12345'
 
 # bundle install in vendor
 # taken from : http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/
