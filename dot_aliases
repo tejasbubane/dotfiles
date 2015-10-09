@@ -30,7 +30,13 @@ alias ohmyzsh="emacsclient ~/.oh-my-zsh"
 alias rspec='nocorrect rspec'
 
 # emacs
-alias emacs="/usr/local/bin/emacs"
+if [[ `uname` == 'Darwin' ]]
+then
+  alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
+else
+  alias emacs="/usr/local/bin/emacs"
+fi
+
 alias ec="emacsclient"
 
 # ping check
