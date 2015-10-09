@@ -13,3 +13,6 @@ Style/IndentHash:
 
 StringLiterals:
   Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
