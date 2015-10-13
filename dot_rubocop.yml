@@ -16,3 +16,6 @@ StringLiterals:
 
 Style/EmptyLinesAroundClassBody:
   Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
