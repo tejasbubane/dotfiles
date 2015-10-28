@@ -44,3 +44,5 @@ alias google="ping www.google.co.in"
 
 # cat the ssh public key
 alias sshkey="cat ~/.ssh/id_rsa.pub"
+
+alias ag='command ag'
