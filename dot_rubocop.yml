@@ -24,4 +24,4 @@ Style/EmptyLinesAroundModuleBody:
   Enabled: false
 
 Style/MultilineOperationIndentation:
-  EnforcedStyle: indented
+  Enabled: false
