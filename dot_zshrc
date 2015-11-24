@@ -13,7 +13,6 @@ plugins=(
   colorize
   copydir
   copyfile
-  debian
   emacs
   gem
   git-extras
