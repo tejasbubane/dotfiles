@@ -19,3 +19,9 @@ Style/EmptyLinesAroundClassBody:
 
 Style/EmptyLinesAroundBlockBody:
   Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
