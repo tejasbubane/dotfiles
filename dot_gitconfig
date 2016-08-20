@@ -28,3 +28,9 @@
         ui = auto
 [push]
         default = current
+[submodule]
+        fetchJobs = 4
+[diff]
+        compactionHeuristic = true
+[interactive]
+        diffFilter = diff-highlight
