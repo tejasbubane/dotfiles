@@ -26,9 +26,6 @@ alias r="rails"
 alias zshconfig="emacsclient ~/.zshrc"
 alias ohmyzsh="emacsclient ~/.oh-my-zsh"
 
-alias rspec="bin/rspec"
-alias rails="bin/rails"
-
 # emacs
 if [[ `uname` == 'Darwin' ]]
 then
