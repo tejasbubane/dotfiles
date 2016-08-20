@@ -1,6 +1,6 @@
 # Always run rails cops
-AllCops:
-  RunRailsCops: false
+Rails:
+  Enabled: true
 
 Style/Encoding:
   EnforcedStyle: when_needed
