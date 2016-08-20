@@ -9,21 +9,35 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(
   battery
   bundler
-  cp
+  brew
+  capistrano
   colorize
+  colored-man-pages
   copydir
   copyfile
+  cp
+  dircycle
+  dirhistory
+  docker-compose
+  docker
   emacs
+  emoji
   gem
   git-extras
+  git-remote-branch
   git
   gitfast
   github
+  gitignore
   gnu-utils
   heroku
   history-substring-search
+  history
   iwhois
   last-working-dir
+  man
+  npm
+  osx
   per-directory-history
   postgres
   rails
@@ -40,8 +54,7 @@ plugins=(
   web-search
   zeus
   zsh_reload
-  mix
-  mix_fast
+  zsh-navigation-tools
 )
 
 source $ZSH/oh-my-zsh.sh
