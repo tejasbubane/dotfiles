@@ -5,6 +5,9 @@ AllCops:
 Rails:
   Enabled: true
 
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
 Style/Encoding:
   Description: 'Check whether the source file has a utf-8 encoding comment.'
   EnforcedStyle: when_needed
