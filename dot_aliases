@@ -4,6 +4,7 @@ alias gf='git fetch'
 alias gdc='git diff --cached'
 alias gmff='git merge --ff-only'
 alias gmnff='git merge --no-ff'
+alias gfu='gco master && gf && gmff upstream/master && gp origin master'
 
 # Mysql
 # No need of password for mysql each time
