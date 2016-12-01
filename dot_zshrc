@@ -52,6 +52,7 @@ plugins=(
   thor
   urltools
   web-search
+  yarn
   zeus
   zsh_reload
   zsh-navigation-tools
