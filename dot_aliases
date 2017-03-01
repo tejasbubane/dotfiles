@@ -23,6 +23,9 @@ alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 # Rails
 alias r="rails"
 
+# rvm
+alias rvmc="rvm current"
+
 # zsh
 alias zshconfig="emacsclient ~/.zshrc"
 alias ohmyzsh="emacsclient ~/.oh-my-zsh"
