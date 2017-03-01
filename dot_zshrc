@@ -68,3 +68,5 @@ export ALTERNATE_EDITOR=""
 export EDITOR=emacsclient
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+HISTSIZE=900000
+SAVEHIST=900000
