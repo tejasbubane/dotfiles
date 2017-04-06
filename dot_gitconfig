@@ -34,3 +34,5 @@
         compactionHeuristic = true
 [interactive]
         diffFilter = diff-highlight
+[status]
+	showUntrackedFiles = all
