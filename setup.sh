@@ -4,6 +4,9 @@ ln -s `pwd`/dot_aliases $HOME/.aliases
 rm -f $HOME/.gitconfig
 ln -s `pwd`/dot_gitconfig $HOME/.gitconfig
 
+rm -f $HOME/.gitconfig-work
+ln -s `pwd`/dot_gitconfig_work $HOME/.gitconfig-work
+
 rm -f $HOME/.paths
 ln -s `pwd`/dot_paths $HOME/.paths
 

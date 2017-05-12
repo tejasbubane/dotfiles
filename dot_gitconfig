@@ -35,4 +35,6 @@
 [interactive]
         diffFilter = diff-highlight
 [status]
-	showUntrackedFiles = all
+        showUntrackedFiles = all
+[includeIf "gitdir:~/work/"]
+        path = .gitconfig-work
