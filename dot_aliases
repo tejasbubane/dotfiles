@@ -51,6 +51,7 @@ alias sshkey="cat ~/.ssh/id_rsa.pub"
 alias ag="command ag"
 
 # yarn
+# Remove after this PR gets merged: https://github.com/robbyrussell/oh-my-zsh/pull/5722
 alias ya="yarn add"
 alias yad="yarn add --dev"
 alias yins="yarn install"
@@ -61,3 +62,7 @@ alias yt="yarn test"
 alias yup="yarn upgrade"
 alias yw="yarn run webpack"
 alias ywp="yarn run webpack:production"
+
+# Directory Aliases
+alias work="cd ~/work"
+alias oss="cd ~/opensource"
