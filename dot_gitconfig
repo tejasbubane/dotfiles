@@ -38,3 +38,5 @@
         showUntrackedFiles = all
 [includeIf "gitdir:~/work/"]
         path = .gitconfig-work
+[gpg]
+	program = gpg
