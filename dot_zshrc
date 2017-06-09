@@ -1,53 +1,35 @@
-ZSH=$HOME/.oh-my-zsh
+ZPLUG_HOME=$HOME/.zplug
 
-ZSH_THEME="pygmalion"
-export TERM="xterm-256color"
+if [ ! -f "$ZPLUG_HOME/init.zsh" ] ; then
+  echo 'Error: `zplug` is not installed.'
+  return
+fi
 
-export UPDATE_ZSH_DAYS=5
-COMPLETION_WAITING_DOTS="true"
+source "$ZPLUG_HOME/init.zsh"
 
-plugins=(
-  bundler
-  brew
-  capistrano
-  colorize
-  colored-man-pages
-  dircycle
-  dirhistory
-  docker-compose
-  docker
-  emacs
-  gem
-  git
-  gitfast
-  history-substring-search
-  history
-  last-working-dir
-  man
-  per-directory-history
-  postgres
-  rails
-  rake-fast
-  rake
-  ruby
-  rvm
-  safe-paste
-  urltools
-  web-search
-  yarn
-  zsh_reload
-  zsh-navigation-tools
-)
+# ZSH Essentials
+zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-autosuggestions", use:"zsh-autosuggestions.zsh"
+zplug "zsh-users/zsh-syntax-highlighting", use:"zsh-syntax-highlighting.zsh"
 
-source $ZSH/oh-my-zsh.sh
+# Pure theme
+zplug "mafredri/zsh-async"
+zplug "sindresorhus/pure", use:pure.zsh, as:theme
 
-source $HOME/.aliases
-source $HOME/.paths
-source $HOME/.utilities
+# Misc
+zplug "djui/alias-tips"
 
-export ALTERNATE_EDITOR=""
-export EDITOR=emacsclient
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-HISTSIZE=900000
-SAVEHIST=900000
+# Then, source plugins and add commands to $PATH
+zplug load
+
+# My own aliases
+source "$HOME/.aliases"
