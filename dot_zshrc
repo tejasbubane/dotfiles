@@ -7,53 +7,34 @@ export UPDATE_ZSH_DAYS=5
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(
-  battery
   bundler
   brew
   capistrano
   colorize
   colored-man-pages
-  copydir
-  copyfile
-  cp
   dircycle
   dirhistory
   docker-compose
   docker
   emacs
-  emoji
   gem
-  git-extras
-  git-remote-branch
   git
   gitfast
-  github
-  gitignore
-  gnu-utils
-  heroku
   history-substring-search
   history
-  iwhois
   last-working-dir
   man
-  npm
-  osx
   per-directory-history
   postgres
   rails
   rake-fast
   rake
-  repo
   ruby
   rvm
   safe-paste
-  ssh-agent
-  themes
-  thor
   urltools
   web-search
   yarn
-  zeus
   zsh_reload
   zsh-navigation-tools
 )

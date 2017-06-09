@@ -1,4 +1,3 @@
-
 # Git
 alias gf='git fetch'
 alias gdc='git diff --cached'
