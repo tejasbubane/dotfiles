@@ -1,9 +1,18 @@
 # Git
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit -v'
+alias gc!='git commit -v --amend'
 alias gf='git fetch'
+alias gd='git diff'
 alias gdc='git diff --cached'
 alias gmff='git merge --ff-only'
 alias gmnff='git merge --no-ff'
 alias gfu='gco master && gf upstream && gmff upstream/master && gp origin master'
+alias gm='git merge'
+alias gr='git remote -v'
+alias gst='git status'
+alias ghh='git help'
 
 # Mysql
 # No need of password for mysql each time
