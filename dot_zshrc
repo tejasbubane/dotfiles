@@ -7,6 +7,9 @@ fi
 
 source "$ZPLUG_HOME/init.zsh"
 
+# All zplug plugins take following format
+# zplug "<github_username>/<project_name>", optionally takes file to use
+
 # ZSH Essentials
 zplug "zsh-users/zsh-completions"
 zplug "zsh-users/zsh-history-substring-search"
