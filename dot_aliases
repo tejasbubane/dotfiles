@@ -19,6 +19,8 @@ alias gm='git merge'
 alias gr='git remote -v'
 alias gst='git status'
 alias ghh='git help'
+alias gl='git log'
+alias glb='git logb'
 
 # Mysql
 # No need of password for mysql each time
@@ -78,6 +80,10 @@ alias yt="yarn test"
 alias yup="yarn upgrade"
 alias yw="yarn run webpack"
 alias ywp="yarn run webpack:production"
+
+# should be defined in package.json
+alias yw="yarn watch"
+alias yb="yarn build"
 
 # Directory Aliases
 alias work="cd ~/work"
