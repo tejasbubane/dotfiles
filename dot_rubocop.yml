@@ -9,35 +9,25 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 Style/Encoding:
-  Description: 'Check whether the source file has a utf-8 encoding comment.'
   EnforcedStyle: when_needed
 
 Style/Documentation:
-  Description: 'Document classes and non-namespace modules.'
   Enabled: false
 
-Style/IndentHash:
-  Description: 'Checks the indentation of the first key in a hash literal.'
+Layout/IndentHash:
   Enabled: false
 
 Style/StringLiterals:
-  Description: 'Checks if uses of quotes match the configured preference.'
   Enabled: false
 
-Style/EmptyLinesAroundClassBody:
-  Description: 'Keeps track of empty lines around class bodies.'
+Layout/EmptyLinesAroundClassBody:
   Enabled: false
 
-Style/EmptyLinesAroundBlockBody:
-  Description: 'Keeps track of empty lines around block bodies.'
+Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 
-Style/EmptyLinesAroundModuleBody:
-  Description: "Keeps track of empty lines around module bodies."
+Layout/EmptyLinesAroundModuleBody:
   Enabled: false
 
-Style/MultilineOperationIndentation:
-  Description: >-
-    Checks indentation of binary operations that span more than
-    one line.
+Layout/MultilineOperationIndentation:
   Enabled: false
