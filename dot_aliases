@@ -41,6 +41,9 @@ alias r="rails"
 alias rc="rails console"
 alias rs="rails server"
 
+# Spring
+alias sr="spring rails" # eg. `sr c` for `spring rails c`
+
 # rvm
 alias rvmc="rvm current"
 
