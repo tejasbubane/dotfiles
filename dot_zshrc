@@ -43,3 +43,5 @@ source "$HOME/.aliases"
 
 # Load all modified paths
 source "$HOME/.paths"
+
+export GPG_TTY=$(tty)

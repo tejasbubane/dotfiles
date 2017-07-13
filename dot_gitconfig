@@ -39,4 +39,4 @@
 [includeIf "gitdir:~/work/"]
         path = .gitconfig-work
 [gpg]
-	program = gpg
+        program = gpg
