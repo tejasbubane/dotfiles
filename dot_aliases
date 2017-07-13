@@ -37,13 +37,10 @@ alias be="b exec"
 alias binit="bi && b package && echo 'vendor/ruby' >> .gitignore"
 
 # Rails
-alias r="rails"
-alias rc="rails console"
-alias rs="rails server"
-
-# Spring
-alias sr="spring rails" # eg. `sr c` for `spring rails c`
-alias srspec="spring rspec"
+alias r="bin/rails"
+alias rc="bin/rails console"
+alias rs="bin/rails server"
+alias rsp="bin/rspec"
 
 # rvm
 alias rvmc="rvm current"
