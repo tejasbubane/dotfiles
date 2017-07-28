@@ -18,7 +18,7 @@ export PATH="$PATH:$HOME/bin" # Add home bin path
 export PATH="$PATH:/usr/local/mysql/bin"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin"
 
-export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
+export PATH="/usr/local/opt/php71/bin:$PATH"
 
 # Yarn bin paths
 export PATH="$HOME/.yarn/bin:$PATH"
