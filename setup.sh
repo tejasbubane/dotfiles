@@ -18,3 +18,6 @@ ln -s `pwd`/dot_utilities $HOME/.utilities
 
 rm -f $HOME/.zshrc
 ln -s `pwd`/dot_zshrc $HOME/.zshrc
+
+rm -f $HOME/.zimrc
+ln -s `pwd`/dot_zimrc $HOME/.zimrc

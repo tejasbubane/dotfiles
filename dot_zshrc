@@ -1,38 +1,13 @@
-ZPLUG_HOME=$HOME/.zplug
 
-if [ ! -f "$ZPLUG_HOME/init.zsh" ] ; then
-  echo 'Error: `zplug` is not installed.'
-  return
+
+#
+# User configuration sourced by interactive shells
+#
+
+# Source zim
+if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
+  source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
 fi
-
-source "$ZPLUG_HOME/init.zsh"
-
-# All zplug plugins take following format
-# zplug "<github_username>/<project_name>", optionally takes file to use
-
-# ZSH Essentials
-zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-history-substring-search"
-zplug "zsh-users/zsh-autosuggestions", use:"zsh-autosuggestions.zsh"
-zplug "zsh-users/zsh-syntax-highlighting", use:"zsh-syntax-highlighting.zsh"
-
-# Pure theme
-zplug "mafredri/zsh-async"
-zplug "sindresorhus/pure", use:pure.zsh, as:theme
-
-# Misc
-zplug "djui/alias-tips"
-
-# Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
-
-# Then, source plugins and add commands to $PATH
-zplug load
 
 # My own aliases
 source "$HOME/.aliases"
