@@ -20,3 +20,6 @@ source "$HOME/.aliases"
 source "$HOME/.paths"
 
 export GPG_TTY=$(tty)
+
+# Set encoding - required by some rake commands
+export LC_ALL="en_US.UTF-8"
