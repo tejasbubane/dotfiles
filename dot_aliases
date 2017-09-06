@@ -58,7 +58,6 @@ else
   alias emacs="/usr/local/bin/emacs"
   alias emacsclient="/usr/local/bin/emacsclient"
 fi
-
 alias ec="emacsclient"
 
 # ping check
@@ -66,8 +65,6 @@ alias google="ping www.google.co.in"
 
 # cat the ssh public key
 alias sshkey="cat ~/.ssh/id_rsa.pub"
-
-alias ag="command ag"
 
 # yarn
 # Remove after this PR gets merged: https://github.com/robbyrussell/oh-my-zsh/pull/5722
@@ -86,6 +83,10 @@ alias ywp="yarn run webpack:production"
 alias yw="yarn watch"
 alias yb="yarn build"
 
-# Directory Aliases
+# Frequently used directories
 alias work="cd ~/work"
 alias oss="cd ~/opensource"
+
+# Random
+alias ag="command ag"
+alias x="chmod u+x"
