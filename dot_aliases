@@ -3,6 +3,7 @@ alias ls='gls --color=tty'
 alias l='ls -lah'
 
 # Git
+alias g='git'
 alias ga='git add'
 alias gb='git branch'
 alias gc='git commit -v'
