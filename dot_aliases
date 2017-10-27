@@ -64,6 +64,9 @@ alias ec="emacsclient"
 # ping check
 alias google="ping www.google.co.in"
 
+# Download youtube videos in standard 720p format and continue from where left
+alias youtube="youtube-dl -f22 -c"
+
 # cat the ssh public key
 alias sshkey="cat ~/.ssh/id_rsa.pub"
 
