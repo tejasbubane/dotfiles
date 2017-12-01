@@ -12,10 +12,6 @@ fi
 # My own aliases
 source "$HOME/.aliases"
 
-# OCaml Installation
-# To correctly configure OPAM for subsequent use
-. /Users/tejas/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-
 # Load all modified paths
 source "$HOME/.paths"
 
