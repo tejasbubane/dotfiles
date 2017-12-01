@@ -87,6 +87,9 @@ alias ywp="yarn run webpack:production"
 alias yw="yarn watch"
 alias yb="yarn build"
 
+# NPM aliases
+alias npmlg="npm list -g --depth=0"
+
 # Frequently used directories
 alias work="cd ~/work"
 alias oss="cd ~/opensource"
