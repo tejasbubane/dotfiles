@@ -89,6 +89,10 @@ alias yb="yarn build"
 
 # NPM aliases
 alias npmlg="npm list -g --depth=0"
+alias npmr="npm run"
+alias npmt="npm test"
+alias npmw="npm run watch"
+alias npmi="npm install"
 
 # Frequently used directories
 alias work="cd ~/work"
@@ -97,3 +101,4 @@ alias oss="cd ~/opensource"
 # Random
 alias ag="command ag"
 alias x="chmod u+x"
+alias rf="rm -rf"
