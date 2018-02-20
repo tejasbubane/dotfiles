@@ -7,8 +7,8 @@ ln -s `pwd`/dot_gitconfig $HOME/.gitconfig
 rm -f $HOME/.gitconfig-work
 ln -s `pwd`/dot_gitconfig_work $HOME/.gitconfig-work
 
-rm -f $HOME/.paths
-ln -s `pwd`/dot_paths $HOME/.paths
+rm -f $HOME/.zshenv
+ln -s `pwd`/dot_zshenv $HOME/.zshenv
 
 rm -f $HOME/.rubocop.yml
 ln -s `pwd`/dot_rubocop.yml $HOME/.rubocop.yml

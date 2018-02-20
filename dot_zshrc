@@ -12,9 +12,6 @@ fi
 # My own aliases
 source "$HOME/.aliases"
 
-# Load all modified paths
-source "$HOME/.paths"
-
 export GPG_TTY=$(tty)
 
 # Set encoding - required by some rake commands
