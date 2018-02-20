@@ -16,9 +16,3 @@ export GPG_TTY=$(tty)
 
 # Set encoding - required by some rake commands
 export LC_ALL="en_US.UTF-8"
-
-# Setup `go` Paths
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-export PATH=$PATH:/usr/local/go/bin
-ulimit -n 8096
