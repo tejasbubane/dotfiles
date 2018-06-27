@@ -22,6 +22,7 @@ alias gst='git status'
 alias ghh='git help'
 alias gl='git log'
 alias glb='git logb'
+alias gcp='git cherry-pick'
 
 # Mysql
 # No need of password for mysql each time
