@@ -16,3 +16,5 @@ export GPG_TTY=$(tty)
 
 # Set encoding - required by some rake commands
 export LC_ALL="en_US.UTF-8"
+
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
