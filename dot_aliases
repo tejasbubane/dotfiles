@@ -102,3 +102,4 @@ alias oss="cd ~/opensource"
 # Random
 alias ag="command ag"
 alias x="chmod u+x"
+alias cat="bat"
