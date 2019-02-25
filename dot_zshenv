@@ -34,3 +34,6 @@ PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig
 
 # Haskell stack binaries
 export PATH="$PATH:/Users/tejas/.local/bin"
+
+# Homebrew needs sbin
+export PATH="/usr/local/sbin:$PATH"
