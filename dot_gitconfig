@@ -39,4 +39,6 @@
 [includeIf "gitdir:~/work/"]
         path = .gitconfig-work
 [gpg]
-	program = /usr/local/bin/gpg
+        program = /usr/local/bin/gpg
+[commit]
+        gpgsign = true
