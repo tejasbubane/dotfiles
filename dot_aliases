@@ -1,5 +1,4 @@
 # Listing and navigation
-alias ls='gls --color=tty'
 alias l='ls -lah'
 
 # Git
