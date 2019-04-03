@@ -101,7 +101,3 @@ alias oss="cd ~/opensource"
 # Random
 alias ag="command ag"
 alias x="chmod u+x"
-alias cat="bat"
-
-# MIT Scheme installed via macOS binary: https://www.gnu.org/software/mit-scheme/
-alias scheme="/Applications/MIT:GNU\ Scheme\ 10.1.6.app/Contents/Resources/mit-scheme"
