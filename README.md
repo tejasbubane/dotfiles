@@ -30,3 +30,11 @@ This will also install some other required plugins.
 ```sh
 brew install zsh-autosuggestions
 ```
+
+### Other requirements
+
+Install [trash](http://hasseg.org/trash/) - it is aliased to `rm` and will move all deleted contents to `Trash` instead of deleting directly. Provides a safety net.
+
+```sh
+brew install trash
+```
