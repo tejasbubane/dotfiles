@@ -102,3 +102,8 @@ alias oss="cd ~/opensource"
 alias x="chmod u+x"
 
 alias rm="trash"
+
+# Nginx start-stop-reload
+alias ng="nginx"
+alias ngst="nginx -s stop"
+alias ngrl="nginx -s reload"
