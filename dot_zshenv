@@ -8,3 +8,6 @@ export PATH="$PATH:$HOME/.local/bin"
 
 # Homebrew needs sbin
 export PATH="$PATH:/usr/local/sbin"
+
+# MIT Scheme (for SICP)
+export PATH="$PATH:/Applications/mit-scheme.app/Contents/Resources/"
