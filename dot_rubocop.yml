@@ -11,7 +11,7 @@ Style/FrozenStringLiteralComment:
 Style/Documentation:
   Enabled: false
 
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   Enabled: false
 
 Style/StringLiterals:
