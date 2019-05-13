@@ -1,6 +1,9 @@
 [user]
         email = tejasbubane@gmail.com
         name = Tejas Bubane
+        signingkey = 41F7C056E76CA02F
+[commit]
+        gpgsign = true
 [alias]
         ci = commit
         co = checkout
