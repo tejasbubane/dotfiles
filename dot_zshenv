@@ -10,3 +10,10 @@ export PATH="$PATH:/usr/local/sbin"
 
 # MIT Scheme (for SICP)
 export PATH="$PATH:/Applications/mit-scheme.app/Contents/Resources/"
+
+# Required for postgres
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export LDFLAGS="-L/usr/local/opt/icu4c/lib"
+export CPPFLAGS="-I/usr/local/opt/icu4c/include"
+export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig"
