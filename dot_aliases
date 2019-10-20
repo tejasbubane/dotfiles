@@ -97,6 +97,7 @@ alias npmi="npm install"
 # Frequently used directories
 alias work="cd ~/work"
 alias oss="cd ~/opensource"
+alias personal="cd ~/Personal"
 
 # Random
 alias x="chmod u+x"
@@ -107,3 +108,11 @@ alias rm="trash"
 alias ng="nginx"
 alias ngst="nginx -s stop"
 alias ngrl="nginx -s reload"
+
+# Use dart-sass instead of ruby-sass
+alias sass=/usr/local/Cellar/sass/1.23.0/bin/sass
+
+# cd
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
