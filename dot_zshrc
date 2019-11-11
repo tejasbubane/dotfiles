@@ -23,3 +23,6 @@ export TERM=xterm-256color
 export PATH="$PATH:$HOME/.rvm/bin"
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Node version manager - https://github.com/Schniz/fnm
+eval "`fnm env --multi`"
