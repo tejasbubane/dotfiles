@@ -16,6 +16,9 @@ ln -s `pwd`/dot_utilities $HOME/.utilities
 rm -f $HOME/.zimrc
 ln -s `pwd`/dot_zimrc $HOME/.zimrc
 
-
 rm -f $HOME/.zshrc
 ln -s `pwd`/dot_zshrc $HOME/.zshrc
+
+mkdir -p $HOME/.ghc
+rm -f $HOME/.ghc/ghci.conf
+ln -s `pwd`/ghci.conf $HOME/.ghc/ghci.conf
