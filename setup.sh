@@ -16,8 +16,6 @@ ln -s `pwd`/dot_utilities $HOME/.utilities
 rm -f $HOME/.zimrc
 ln -s `pwd`/dot_zimrc $HOME/.zimrc
 
-rm -f $HOME/.zshenv
-ln -s `pwd`/dot_zshenv $HOME/.zshenv
 
 rm -f $HOME/.zshrc
 ln -s `pwd`/dot_zshrc $HOME/.zshrc
