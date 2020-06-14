@@ -1,7 +1,5 @@
-# Source zim
-if [[ -s ${ZDOTDIR:-${HOME}}/.zim/init.zsh ]]; then
-  source ${ZDOTDIR:-${HOME}}/.zim/init.zsh
-fi
+# Zim config
+source "$HOME/.zim_preload"
 
 # My own aliases
 source "$HOME/.aliases"

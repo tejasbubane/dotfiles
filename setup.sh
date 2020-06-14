@@ -13,6 +13,15 @@ ln -s `pwd`/dot_rubocop.yml $HOME/.rubocop.yml
 rm -f $HOME/.utilities
 ln -s `pwd`/dot_utilities $HOME/.utilities
 
+rm -f $HOME/.zshenv
+ln -s `pwd`/dot_zshenv $HOME/.zshenv
+
+rm -f $HOME/.zim_preload
+ln -s `pwd`/dot_zim_preload $HOME/.zim_preload
+
+rm -f $HOME/.zlogin
+ln -s `pwd`/dot_zlogin $HOME/.zlogin
+
 rm -f $HOME/.zimrc
 ln -s `pwd`/dot_zimrc $HOME/.zimrc
 

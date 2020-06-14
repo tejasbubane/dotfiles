@@ -14,22 +14,22 @@ Install homebrew if not already installed from [here](https://brew.sh/).
 * Install `zsh` itself:
 
 ```sh
-brew install zsh
+brew install zsh wget
 ```
 
 * Zim:
 
 ```sh
-git clone --recursive https://github.com/zimfw/zimfw.git ${ZDOTDIR:-${HOME}}/.zim
+chsh -s /usr/local/bin/zsh
+
+mkdir ~/.zim
+cd ~/.zim
+wget https://github.com/zimfw/zimfw/releases/latest/download/zimfw.zsh
+zsh zimfw.zsh install
 ```
-This will also install some other required plugins.
 
-
-* Auto-suggestions:
-
-```sh
-brew install zsh-autosuggestions
-```
+This will also install all required plugins.
+Taken from https://github.com/zimfw/zimfw#manual-installation
 
 ### Other requirements
 
