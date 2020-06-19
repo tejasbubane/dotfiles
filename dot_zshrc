@@ -61,3 +61,8 @@ export PATH="/usr/local/opt/postgresql@11/bin:$PATH"
 
 # Cargo Rust
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Go paths
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
