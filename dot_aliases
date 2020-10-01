@@ -12,6 +12,7 @@ alias gp='git push'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gmff='git merge --ff-only'
+alias gpf='git pull --ff-only'
 alias gmnff='git merge --no-ff'
 alias gco='git co'
 alias gfu='gco master && gf upstream && gmff upstream/master && git push origin master'
@@ -101,6 +102,7 @@ alias personal="cd ~/Personal"
 
 # Random
 alias x="chmod u+x"
+alias cal="cal -3"
 
 alias rm="trash"
 
