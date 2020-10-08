@@ -35,6 +35,12 @@ Taken from https://github.com/zimfw/zimfw#manual-installation
 
 Install [trash](http://hasseg.org/trash/) - it is aliased to `rm` and will move all deleted contents to `Trash` instead of deleting directly. Provides a safety net.
 
+For MacOS:
 ```sh
 brew install trash
+```
+
+For ubuntu:
+```sh
+sudo apt-get install trash-cli
 ```
