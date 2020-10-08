@@ -191,3 +191,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export GOPATH=$HOME/go
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+
+source "/etc/profile.d/rvm.sh"
