@@ -104,8 +104,6 @@ alias personal="cd ~/Personal"
 alias x="chmod u+x"
 alias cal="cal -3"
 
-alias rm="trash"
-
 # Nginx start-stop-reload
 alias ng="nginx"
 alias ngst="nginx -s stop"
