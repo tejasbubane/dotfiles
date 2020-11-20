@@ -103,6 +103,7 @@ alias personal="cd ~/Personal"
 # Random
 alias x="chmod u+x"
 alias cal="cal -3"
+alias open="xdg-open"
 
 # Nginx start-stop-reload
 alias ng="nginx"
@@ -116,3 +117,7 @@ alias sass=/usr/local/Cellar/sass/1.23.0/bin/sass
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+
+# pacman
+alias pacu="sudo pacman -Syyu"
+alias yayu="yay -Syu --devel --timeupdate"
