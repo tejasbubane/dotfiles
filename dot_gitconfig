@@ -1,7 +1,7 @@
 [user]
         email = tejasbubane@gmail.com
         name = Tejas Bubane
-        signingkey = 41F7C056E76CA02F
+        signingkey = 71AE87A0E7177D76
 [commit]
         gpgsign = true
 [alias]
@@ -39,7 +39,5 @@
         diffFilter = diff-highlight
 [status]
         showUntrackedFiles = all
-[includeIf "gitdir:~/work/"]
-        path = .gitconfig-work
 [gpg]
-        program = /usr/local/bin/gpg
+        program = /usr/bin/gpg
