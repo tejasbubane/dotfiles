@@ -121,3 +121,9 @@ alias ....="cd ../../.."
 # pacman
 alias pacu="sudo pacman -Syyu"
 alias yayu="yay -Syu --devel --timeupdate"
+
+# cargo
+alias cr="cargo run"
+alias ct="cargo test"
+alias cf="cargo fmt"
+alias cc="cargo clippy"
