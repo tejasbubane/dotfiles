@@ -121,6 +121,7 @@ alias ....="cd ../../.."
 # pacman
 alias pacu="sudo pacman -Syyu"
 alias yayu="yay -Syu --devel --timeupdate"
+alias reflector-update="sudo reflector -c India -c Singapore -c France -c Germany --age 12 --completion-percent 100 --protocol https --sort rate --verbose --save /etc/pacman.d/mirrorlist"
 
 # cargo
 alias cr="cargo run"
