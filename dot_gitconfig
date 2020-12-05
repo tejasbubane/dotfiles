@@ -41,3 +41,5 @@
         showUntrackedFiles = all
 [gpg]
         program = /usr/bin/gpg
+[credential]
+	username = tejasbubane
