@@ -57,8 +57,8 @@ then
   alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs"
   alias emacsclient="/Applications/Emacs.app/Contents/MacOS/bin/emacsclient"
 else
-  alias emacs="/usr/local/bin/emacs"
-  alias emacsclient="/usr/local/bin/emacsclient"
+  alias emacs="/usr/bin/emacs"
+  alias emacsclient="/usr/bin/emacsclient"
 fi
 alias ec="emacsclient"
 
