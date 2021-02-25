@@ -1,6 +1,0 @@
-[user]
-        name = Tejas Bubane
-        email = tejas.bubane@jifflenow.com
-        signingkey = C8D9B4207AEC73A8
-[commit]
-        gpgsign = true
