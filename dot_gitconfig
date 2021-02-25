@@ -26,7 +26,7 @@
         ss = stash save
 
 [core]
-        editor = /Applications/Emacs.app/Contents/MacOS/bin/emacsclient
+        editor = emacsclient
 [color]
         ui = auto
 [push]
