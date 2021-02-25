@@ -24,11 +24,6 @@ alias gl='git log'
 alias glb='git logb'
 alias gcp='git cherry-pick'
 
-# Mysql
-# No need of password for mysql each time
-alias mysqla='mysql -uroot -proot12345'
-alias mysqldumpa='mysqldump -uroot -proot12345'
-
 # bundle install in vendor
 # taken from : http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/
 alias b="bundle"
@@ -49,7 +44,6 @@ alias rvmc="rvm current"
 
 # zsh
 alias zshconfig="emacsclient ~/.zshrc"
-alias ohmyzsh="emacsclient ~/.oh-my-zsh"
 
 # emacs
 if [[ `uname` == 'Darwin' ]]
@@ -70,23 +64,6 @@ alias youtube="youtube-dl -f22 -c"
 
 # cat the ssh public key
 alias sshkey="cat ~/.ssh/id_rsa.pub"
-
-# yarn
-# Remove after this PR gets merged: https://github.com/robbyrussell/oh-my-zsh/pull/5722
-alias ya="yarn add"
-alias yad="yarn add --dev"
-alias yins="yarn install"
-alias yls="yarn ls"
-alias yrm="yarn rm"
-alias yrun="yarn run"
-alias yt="yarn test"
-alias yup="yarn upgrade"
-alias yw="yarn run webpack"
-alias ywp="yarn run webpack:production"
-
-# should be defined in package.json
-alias yw="yarn watch"
-alias yb="yarn build"
 
 # NPM aliases
 alias npmlg="npm list -g --depth=0"
@@ -119,9 +96,12 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # pacman
-alias pacu="sudo pacman -Syyu"
-alias yayu="yay -Syu --devel --timeupdate"
-alias reflector-update="sudo reflector -c India -c Singapore -c France -c Germany --age 12 --completion-percent 100 --protocol https --sort rate --verbose --save /etc/pacman.d/mirrorlist"
+if [ -f "/etc/arch-release" ]
+then
+    alias pacu="sudo pacman -Syyu"
+    alias yayu="yay -Syu --devel --timeupdate"
+    alias reflector-update="sudo reflector -c India -c Singapore -c France -c Germany --age 12 --completion-percent 100 --protocol https --sort rate --verbose --save /etc/pacman.d/mirrorlist"
+fi
 
 # cargo
 alias cr="cargo run"
