@@ -1,5 +1,6 @@
 # Listing and navigation
-alias l='ls -lah'
+alias ls='lsd'
+alias la='ls -lah'
 
 # Git
 alias g='git'
