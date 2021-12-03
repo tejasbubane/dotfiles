@@ -33,14 +33,10 @@ Taken from https://github.com/zimfw/zimfw#manual-installation
 
 ### Other requirements
 
-Install [trash](http://hasseg.org/trash/) - it is aliased to `rm` and will move all deleted contents to `Trash` instead of deleting directly. Provides a safety net.
+1. [Delta](https://github.com/dandavison/delta) for rich git diffs.
 
-For MacOS:
-```sh
-brew install trash
-```
+For Arch Linux:
 
-For ubuntu:
 ```sh
-sudo apt-get install trash-cli
+sudo pacman -S git-delta
 ```
