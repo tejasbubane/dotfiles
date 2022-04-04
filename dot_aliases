@@ -24,6 +24,7 @@ alias ghh='git help'
 alias gl='git log'
 alias glb='git logb'
 alias gcp='git cherry-pick'
+alias gfmp='git fetch && git checkout main && gmff && git checkout production && gmff'
 
 # bundle install in vendor
 # taken from : http://ryan.mcgeary.org/2011/02/09/vendor-everything-still-applies/
