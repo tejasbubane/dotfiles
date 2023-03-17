@@ -54,4 +54,8 @@ then
     mkdir -p $HOME/.ghc
     rm -f $HOME/.ghc/ghci.conf
     ln -s `pwd`/ghci.conf $HOME/.ghc/ghci.conf
+
+    echo "Creating global .ruby-version"
+    rm -f $HOME/.ruby-version
+    ln -s `pwd`/.ruby-version $HOME/.ruby-version
 fi
