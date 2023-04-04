@@ -112,4 +112,4 @@ alias cc="cargo clippy"
 # Ruby version switching
 # Ruby 3 is the default (see .ruby-version)
 # Use this alias to switch to ruby 2 when needed
-alias chrb2="chruby 2.7.6"
+alias chrb2="chruby 2.7.8"
